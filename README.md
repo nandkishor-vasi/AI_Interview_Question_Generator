@@ -24,6 +24,6 @@ DEMO UI
 
 | Frontend               | Backend                     | AI/ML                |
 |------------------------|-----------------------------|----------------------|
-| React, Axios, Heroicons | Python, FastAPI (assumed)   | Cohere via LangChain |
+| React, Axios, Heroicons | Python, FastAPI            | Cohere via LangChain |
 
 
