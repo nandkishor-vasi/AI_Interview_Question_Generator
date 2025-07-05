@@ -1,4 +1,4 @@
-# 🚀 AI Resume Interview Question Generator
+# AI Resume Interview Question Generator
 
 This project uses AI to generate personalized technical interview questions based on a candidate’s resume. Simply upload your `.pdf` or `.docx` resume, and receive 5 tailored questions evaluating your skills, education, and project experience.
 
