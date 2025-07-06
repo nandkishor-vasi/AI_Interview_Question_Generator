@@ -7,3 +7,4 @@ langchain
 langchain-cohere
 fitz 
 docx2txt
+pypdf
