@@ -4,6 +4,9 @@ This project uses AI to generate personalized technical interview questions base
 
 ---
 DEMO UI
+## 🌐 Live Demo
+
+👉 [https://ai-interview-question-generator-gamma.vercel.app/](https://ai-interview-question-generator-gamma.vercel.app/)
 
 ![My Image](assets/image1.png)
 ![My Image](assets/image2.png)
