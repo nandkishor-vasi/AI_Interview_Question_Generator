@@ -13,6 +13,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def root():
+    return {"message": "API is running. Use POST /upload-resume/ to get interview questions."}
+
+
 @app.post("/upload-resume/")
 async def upload_resume(file: UploadFile = File(...)):
     try:
