@@ -32,11 +32,11 @@ function App() {
     try {
       setLoading(true);
       setError(null);
-      const response = await axios.post('http://127.0.0.1:8000/upload-resume/', formData, {
+      const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/upload-resume/`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setQuestions(response.data.questions);
-      setTimeout(() => setShowQuestions(true), 100); // Allow React to render questions before transition
+      setTimeout(() => setShowQuestions(true), 100); 
     } catch (err) {
       console.error('Upload failed:', err);
       setError('Failed to generate questions. Please try again.');
